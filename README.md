@@ -28,7 +28,7 @@ Stop the PostgreSQL 13 server:
 sudo systemctl stop postgresql
 ```
 
-Review the current config (for example `listen_addresses`, `max_connections`, and local connections) in:
+Review the current config (for example `listen_addresses`, `max_connections`, and local connections) in below files, will add the same config to the new installation:
 
 - `/var/lib/pgsql/data/pg_hba.conf`
 - `/var/lib/pgsql/data/postgresql.conf`
@@ -80,6 +80,7 @@ mv 15/* .
 rm -Rf 15
 exit
 ```
+Update /var/lib/pgsql/data/pg_hba.conf and /var/lib/pgsql/data/postgresql.conf to satisfy previous configuration
 
 ## Install PostgreSQL 15 from the RHEL repo
 
