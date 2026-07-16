@@ -1,4 +1,6 @@
-# Upgrade PostgreSQL 13 to 15 on RHEL 9
+# Upgrade PostgreSQL 13 to 15 on RHEL 9 manually
+
+Use the step below when the simpler path described here: https://access.redhat.com/solutions/7102084  is not possible for any reason. 
 
 ## Preparation
 
