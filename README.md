@@ -30,7 +30,7 @@ Stop the PostgreSQL 13 server:
 sudo systemctl stop postgresql
 ```
 
-Review the current config (for example `listen_addresses`, `max_connections`, and local connections) in below files, will add the same config to the new installation:
+Review the current config (for example `listen_addresses`, `max_connections`, and `local connections`) in below files, will add the same config to the new installation:
 
 - `/var/lib/pgsql/data/pg_hba.conf`
 - `/var/lib/pgsql/data/postgresql.conf`
@@ -110,6 +110,11 @@ Expected output:
  server_version
 ----------------
  15.18
+```
+and use list command to verify the database.
+
+```
+sudo -i -u postgres psql -c "\list+"
 ```
 
 ## PostgreSQL suggestion
