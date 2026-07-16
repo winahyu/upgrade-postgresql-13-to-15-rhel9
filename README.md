@@ -82,7 +82,7 @@ mv 15/* .
 rm -Rf 15
 exit
 ```
-Update /var/lib/pgsql/data/pg_hba.conf and /var/lib/pgsql/data/postgresql.conf to satisfy previous configuration
+Update `/var/lib/pgsql/data/pg_hba.conf` and `/var/lib/pgsql/data/postgresql.conf` to satisfy previous configuration
 
 ## Install PostgreSQL 15 from the RHEL repo
 
